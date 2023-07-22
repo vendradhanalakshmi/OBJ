@@ -1,0 +1,40 @@
+.bannerBgImage{
+    height: 100vh;
+    background: url("bannerImage.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: aqua;
+}
+.bannerTitle{
+    font-size: 1.5rem;
+}
+.bannertitle{
+    font-size: 4rm;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color: plum;
+    border: 2px solid yellow;
+}
+.bicon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 2px solid blueviolet;
+}
+.card-img-top{
+    height: 50vh;
+}
+
